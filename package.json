@@ -4,7 +4,8 @@
   "description": "This is the project created for educational purpose",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Ahmad",
   "license": "ISC",
@@ -25,6 +26,4 @@
   "devDependencies": {
     "nodemon": "^2.0.20"
   }
-
-
 }
